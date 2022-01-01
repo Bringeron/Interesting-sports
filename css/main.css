@@ -79,7 +79,19 @@ input:checked ~ .input__controller--ping-pong {
     background-position: center;
     background-repeat: no-repeat;
 }
+input:disabled ~ .input__controller--ping-pong {
+    background-image: url(../icons/table-tennis.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 input:checked ~ .input__controller--basketball {
+    background-image: url(../icons/basketball-ball.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input:disabled ~ .input__controller--basketball {
     background-image: url(../icons/basketball-ball.png);
     background-size: 80%;
     background-position: center;
@@ -91,7 +103,12 @@ input:checked ~ .input__controller--volleyball {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+input:disabled ~ .input__controller--volleyball {
+    background-image: url(../icons/volleyball-ball.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 input:checked ~ .input__controller--hockey {
     background-image: url(../icons/hockey-puck.png);
     background-size: 80%;
